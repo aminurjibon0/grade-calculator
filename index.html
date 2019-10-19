@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>portfolio website</title>
+    
+    <!-- google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="grade-table">
+            <div class="grade-intro">
+                <div class="intro-text">
+                    <h1>Subject <span class="d-block">Grade</span><span class="d-block">Calculator</span></h1>
+                </div>
+            </div>
+            <div class="grade-input">
+                <div class="input-group-half-left">
+                    <label for="bangla">Bangla <span class="valid-box"></span></label>
+                    <input type="text" id="bangla">
+                </div>
+                <div class="input-group-half-right">
+                    <label for="english">EngLish <span class="valid-box"></span></label>
+                    <input type="text" id="english">
+                </div>
+                <div class="input-group">
+                    <label for="mathmetics">Mathmetics <span class="valid-box"></span></label>
+                    <input type="text" id="mathmetics">
+                </div>
+                <div class="input-group">
+                    <label for="global">Bangla & Global studies <span class="valid-box"></span></label>
+                    <input type="text" id="global">
+                </div>
+                <div class="input-group">
+                    <label for="moral">Islam & moral <span class="valid-box"></span></label>
+                    <input type="text" id="moral">
+                </div>
+                <div class="input-group-half-left">
+                    <label for="physics">Physics <span class="valid-box"></span></label>
+                    <input type="text" id="physics">
+                </div>
+                <div class="input-group-half-right">
+                    <label for="chemistry">Chemistry <span class="valid-box"></span></label>
+                    <input type="text" id="chemistry">
+                </div>
+                <div class="input-group">
+                    <label for="higher">Higher Mathmetics <span class="valid-box"></span></label>
+                    <input type="text" id="higher">
+                </div>
+                <div class="input-group">
+                    <label for="biology">Biology <span class="valid-box"></span></label>
+                    <input type="text" id="biology">
+                </div>
+                <div class="input-group">
+                    <button type="button" class="submit" id="calc">Calculate Grade</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="grade-field">
+        <div class="close">x</div>
+        <table class="table">
+            <caption><h3>Grade Point</h3></caption>
+            <tr>
+                <td>Bangla</td>
+                <td><span class="grade-bangla"></span></td>
+            </tr>
+            <tr>
+                <td>English</td>
+                <td><span class="grade-english"></span></td>
+            </tr>
+            <tr>
+                <td>Mathmetics</td>
+                <td><span class="grade-mathmetics"></span></td>
+            </tr>
+            <tr>
+                <td>Bangla & Global Studies</td>
+                <td><span class="grade-global"></span></td>
+            </tr>
+            <tr>
+                <td>Islam & Moral</td>
+                <td><span class="grade-moral"></span></td>
+            </tr>
+            <tr>
+                <td>Physics</td>
+                <td><span class="grade-physics"></span></td>
+            </tr>
+            <tr>
+                <td>Chemistry</td>
+                <td><span class="grade-chemistry"></span></td>
+            </tr>
+            <tr>
+                <td>Higher Mathmetics</td>
+                <td><span class="grade-higher"></span></td>
+            </tr>
+            <tr>
+                <td>Biology</td>
+                <td><span class="grade-biology"></span></td>
+            </tr>
+        </table>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
